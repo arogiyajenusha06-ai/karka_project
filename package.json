@@ -1,0 +1,13 @@
+{
+  "name": "karka-nexus-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KARKA NEXUS — Intelligence in Motion. Official AI Platform for Karka Academy.",
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "build:backend": "npm --prefix backend run build",
+    "build": "npm run build:frontend && npm run build:backend"
+  }
+}
